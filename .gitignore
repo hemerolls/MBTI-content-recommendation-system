@@ -1,0 +1,52 @@
+
+data/
+checkpoints/
+results/
+*.xlsx
+*.csv
+*.pt
+*.pth
+*.pkl
+*.npy
+*.arrow
+*.jsonl
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Логи и кэш ===
+*.log
+wandb/
+mlruns/
+.cache/
+
+# === Секреты ===
+.env
+*.key
+*.pem
