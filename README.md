@@ -92,5 +92,4 @@
     │   ├── evaluate_recommendations.py
     │   └── llm_generation_stub.py
     └── docs/
-        ├── ARCHITECTURE.md    # Схема системы
-        └── images/
+        └── images/ARCHITECTURE    # Схема системы
